@@ -7,8 +7,8 @@ function solve(args)
     {
         arr[i] = i + 1;
     }
-    arr.splice(0,1);
-    for (let i = 0, len = arr.length; i < len; i += 1)
+    arr.splice(0, 1);
+    for (let i = 0, len = arr.length; i < Math.sqrt(n); i += 1)  // i < Math.sqrt(n) , i < len
     {
         for (let j = 0; j < len; j += 1)
         {
